@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-ledger-app",
+  "version": "1.0.0",
+  "description": "A Bitcoin application for Ledger hardware wallets",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npm run build:app",
+    "build:app": "echo 'Build command to be configured'"
+  },
+  "keywords": [
+    "bitcoin",
+    "ledger",
+    "hardware-wallet",
+    "crypto"
+  ],
+  "author": "stefkeppens686-commits",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
